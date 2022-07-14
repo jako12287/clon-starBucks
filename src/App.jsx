@@ -3,7 +3,7 @@ function App() {
 
   return (
     <div>
-      home Clone startbucks :)
+      home Clone startbucks :) 1
     </div>
   )
 }
