@@ -1,10 +1,11 @@
+import { Nav } from './assets/components/Nav.jsx'
 
 function App() {
 
   return (
-    <div>
-      home Clone startbucks :) 1
-    </div>
+   <>
+    <Nav/>
+   </>
   )
 }
 
