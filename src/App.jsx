@@ -1,3 +1,4 @@
+import { Footer } from './assets/components/Footer.jsx'
 import { Nav } from './assets/components/Nav.jsx'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
    <>
     <Nav/>
+    <Footer/>
    </>
   )
 }

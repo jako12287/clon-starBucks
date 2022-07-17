@@ -4,13 +4,13 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 export const Nav = () => {
   return (
     <header className="nav-bar">
-      <section className="section-logo">
+      <section className="nav-section-logo">
         <figure>
           <img className="logo-nav" src={logo} />
         </figure>
       </section>
 
-      <section className="section-links">
+      <section className="nav-section-links">
         <div className="contain-links">
           <p>MENU</p>
           <p>CAFÉ</p>
@@ -19,7 +19,7 @@ export const Nav = () => {
         <div className="spacing-70" />
       </section>
 
-      <section className="section-lacation">
+      <section className="nav-section-lacation">
         <FaMapMarkerAlt size={25} />
         <p>Localizar Tienda</p>
       </section>
