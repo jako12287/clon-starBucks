@@ -244,3 +244,66 @@
   font-size: 1.6rem;
 }
 /* ////////////////////FOOTER////////////////////// */
+
+/* /////////////////////HOME/////////////////////// */
+
+.home-main-content{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.home-section-content{
+  /* border: 1px solid red; */
+  height: 31rem;
+  background-color: #00000040;
+  display: flex;
+}
+
+.home-subcontain{
+  width: 50%;
+  background-color: #123029;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-subcontain > h2{
+  font-size: 3.5rem;
+}
+
+.home-subcontain > p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn-one{
+  width: 20rem;
+  height: 2.5rem;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.home-subcontain-two{
+  width: 50%;
+  background-color: #005536;
+  color: #fff;
+}
+
+.home-img-hero{
+  aspect-ratio: 17/10;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+/* /////////////////////HOME/////////////////////// */
