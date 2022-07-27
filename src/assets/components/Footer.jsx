@@ -2,13 +2,17 @@ import logo from "../../utils/images/logo-super.png";
 import facebook from "../../utils/images/Logo-facebook.png";
 import instagram from "../../utils/images/logo-instagram.png";
 import twitter from "../../utils/images/logo-twitter.png";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
     <footer>
       <section className="footer-section-one">
         <article className="footer-col-one">
+<Link to={"/seccion/acerca-de-starbucks"}>
+
           <h2>Sobre nosotros</h2>
+</Link>
           <h3>Acerca de Starbucks</h3>
           <h3>Trabaja con nosotros</h3>
           <h3>
